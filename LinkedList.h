@@ -15,7 +15,6 @@ private:
     friend class LinkedList; 
 public:
     Node(int id, string name) ;
-    int getIndex();
     int getId();
     string getName();
     string to_string();
